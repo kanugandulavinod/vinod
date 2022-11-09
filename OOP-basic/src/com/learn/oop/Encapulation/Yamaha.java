@@ -1,0 +1,16 @@
+package com.learn.oop.Encapulation;
+
+public class Yamaha {
+public static void main(String[] args) {
+	 Bike FZ = new Bike ();
+	 FZ.setName("Yamaha FZ");
+	 FZ.setCc(150);
+	 FZ.setColour("BLUE");
+	 FZ.setPrice(100000);
+	 System.out.println(FZ.getName());
+	 System.out.println(FZ.getCc());
+	 System.out.println(FZ.getPrice());
+	 System.out.println(FZ.getColour());
+}
+
+}
