@@ -1,0 +1,6 @@
+package com.oop;
+
+public class Employe {
+	Integer BaseSalary = 50000;
+
+}

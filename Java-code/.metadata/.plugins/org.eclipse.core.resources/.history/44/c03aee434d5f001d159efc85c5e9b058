@@ -1,0 +1,9 @@
+package com.oop;
+
+public class Employe {
+	Integer BaseSalary = 50000;
+void TotalSalary (Integer BS, Integer Bonus) {
+Integer total = BS + Bonus;
+System.out.println(total);
+}
+}

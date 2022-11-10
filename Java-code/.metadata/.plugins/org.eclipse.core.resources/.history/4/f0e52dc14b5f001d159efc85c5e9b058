@@ -1,0 +1,11 @@
+package com.oop;
+
+public class HR extends Employe {
+	Integer Bouns =  20000;
+	Integer total = Bouns + BaseSalary;
+public static void main(String[] args) {
+	HR Anisha = new HR();
+	System.out.println("Anisha's total salary is " + Anisha.total);
+}
+
+}

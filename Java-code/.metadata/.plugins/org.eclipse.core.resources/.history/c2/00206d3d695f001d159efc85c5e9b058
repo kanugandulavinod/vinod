@@ -1,0 +1,15 @@
+package com.learn.oop.Collections;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+public static void main(String[] args) {
+	ArrayList<String> ParticipantList = new ArrayList();
+	ParticipantList.add("Vinod");
+	ParticipantList.add("Rajesh");
+	ParticipantList.add("Srinivas");
+	ParticipantList.add("Sudheer");
+	System.out.println(ParticipantList);
+
+}
+}

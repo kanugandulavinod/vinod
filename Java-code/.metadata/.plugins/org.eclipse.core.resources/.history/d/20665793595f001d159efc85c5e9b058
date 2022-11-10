@@ -1,0 +1,8 @@
+package com.learn.oop.Encapulation;
+
+public class Bike {
+	private String name;
+	private Integer cc;
+	private 
+
+}

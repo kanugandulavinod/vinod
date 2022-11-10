@@ -1,0 +1,20 @@
+package com.learn.oop.Collections;
+
+import java.util.Iterator;
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+public static void main(String[] args) {
+	
+	TreeSet<String> cars = new TreeSet<>(); 
+	
+	cars.add("Maruthi");
+	cars.add("Honda");
+	cars.add("KIA");
+	
+	Iterator<String> its = cars.iterator();
+	while(its.hasNext()) {
+	System.out.println(its.next());
+
+}
+}

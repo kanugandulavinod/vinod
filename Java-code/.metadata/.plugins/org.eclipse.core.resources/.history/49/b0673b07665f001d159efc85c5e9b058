@@ -1,0 +1,10 @@
+package com.learn.oop.date
+import java.time.LocalDate;
+import java.util.Date;
+
+public class DateDemo {
+public static void main(String[] args) {
+	LocalDate LocalDate = LocalDate.now();
+	LocalDate yesterday = Date.minusDay(1);
+	
+}

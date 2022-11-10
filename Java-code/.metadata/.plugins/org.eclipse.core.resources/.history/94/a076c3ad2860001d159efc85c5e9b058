@@ -1,0 +1,23 @@
+package com.startstudent;
+
+import java.sql.DriverManager;
+
+import com.sun.jdi.connect.spi.Connection;
+
+public class ConnectionProvider {
+java.sql.Connection con;
+public void create() {
+	try {
+		Class.forName("com.mysql.jdbc.driver");
+	String user = "root";
+	String Password = "Vinod";
+	String Url = "htt://localhost:3306/studentmanagement";
+	con = DriverManager.getConnection(Url,user,Password);
+	}catch (Exception e) {
+		e.printStackTrace();
+	}
+	return;
+	
+	
+}
+}

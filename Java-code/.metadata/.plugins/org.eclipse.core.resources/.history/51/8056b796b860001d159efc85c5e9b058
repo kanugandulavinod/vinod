@@ -1,0 +1,26 @@
+package com.start;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Start {
+public static void main(String[] args) {
+	System.out.println("Hello java");
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	while(true) {
+		System.out.println("press 1 to add a student ");
+		System.out.println("press 2 to Delete a student");
+		System.out.println("press 3 to  diapaly a student");
+		System.out.println("press 4 to  exit the app");
+		int choice = Integer
+
+				
+				String phone = br.readLine();
+		System.out.println("Student added sucessfully");
+		String city = br.readLine();	
+		System.out.println("there is problrm please contact admin");		
+	}
+}  else if (choice ==3);
+
+}
+}
