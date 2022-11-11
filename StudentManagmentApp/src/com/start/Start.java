@@ -14,10 +14,19 @@ public static void main(String[] args) throws IOException{
 		System.out.println("press 3 to  diapaly a student");
 		System.out.println("press 4 to  exit the app");
 		int choice = Integer.parseInt(br.readLine());
-		
+		//Student st = new Student(name,phone,city);
 	
    if (choice == 1){ 
-   // add student	
+   // add student
+	   System.out.println("Enter Student full name");
+	   String name = br.readLine();
+	   
+	   System.out.println("Enter Student phone number");
+	   String phone = br.readLine();
+	   
+	   System.out.println("Enter Student city");
+			 
+	   
    }
    else if (choice == 2) { 
 		   // delete student
